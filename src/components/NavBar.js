@@ -1,5 +1,7 @@
 import '../App.css';
-import VascaLogo from '../vasca-logo.png'
+import VascaLogo from '../vasca-logo.png';
+import {Cart} from 'grommet-icons';
+
 
 
 
@@ -17,7 +19,7 @@ function NavBar() {
                <li className='menu-li'><a className='menu-enlace' href='.'>Productos</a></li>
                <li className='menu-li'><a className='menu-enlace' href='.'>Nosotros</a></li>
             </ul>
-           <a className='carrito-fondo' href='https://css.gg/shopping-cart'><i className='carrito-img gg-shopping-cart'></i></a>
+           <a className='carrito-fondo' href='.'><Cart className='carrito' size='medium'/></a>
 
          </header>
       </div>

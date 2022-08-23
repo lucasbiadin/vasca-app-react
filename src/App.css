@@ -15,11 +15,11 @@
   align-items: center;
 }
 .logo .vasca-logo {
-  width: 3.5em
+  width: 3.5em;
+  margin-top: 0.3em
 }
 
 .menu {
-
   width: 40%;
   height: 3em;
   list-style: none;
@@ -36,7 +36,7 @@
 .menu .menu-enlace:hover{
   border: rgba(0, 0, 0, 0.27) solid 2px;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.27);
+  background-color: rgba(0, 0, 0, 0.084);
 }
 .carrito-fondo{
   width: 3em;
@@ -44,4 +44,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.carrito-fondo {
+  width: max-content;
+  height: max-content;
 }
