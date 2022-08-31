@@ -3,9 +3,12 @@ import {Cart} from 'grommet-icons';
 function CartWidget(){
    return(
       <div>
-         <a className='carrito-fondo' href='.'>
-            <Cart className='carrito' size='medium'/>
-         </a>
+
+            <button className='cart-button'>
+               <a className='carrito' href='.'><Cart  size='medium'/></a>
+            </button>
+
+
       </div>
    )
 }

@@ -41,20 +41,27 @@
 
 .menu .menu-enlace:hover {
   outline: rgba(0, 0, 0, 0.27) solid 2px;
-  ;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.084);
 }
 
-.carrito-fondo {
-  width: 3em;
-  height: 3em;
+
+.cart-button{
+  background: none;
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.cart-button :hover{
+  cursor: pointer;
+}
 
-.carrito-fondo {
-  width: max-content;
-  height: max-content;
+.card{
+  border: #000 2px solid;
+  width: 10%;
+  height: 2em;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
 }
